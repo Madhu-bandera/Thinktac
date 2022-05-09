@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="row my-4">
+        <div class="col-sm-6 my-3 " *ngFor="let item of list">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">{{item.Name}}</h4>
+                    <img class="img-fluid" src="{{item.IconUrl}}" alt="Responsive image" />
+                    <h6 class="card-title">{{item.Version}}</h6>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
