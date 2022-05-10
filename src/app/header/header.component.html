@@ -6,14 +6,11 @@
         <a class="navbar-brand" href="#"><img class="img-fluid"
                 src="../../assets/ThinkTac-Create-Learn-Enjoy-400x106 (1).png" alt="Responsive image" /></a>
         <div id="navbarSecondCollapse" class="collapse navbar-collapse justify-content-around">
-            <div class="navbar-nav align-self-center">
-                <form class="form mt-5">
-                    <input class="form-control" list="datalistOptions" id="exampleDataList"
-                        placeholder="Type to search...">
-                    <datalist id="datalistOptions">
-                        <option *ngFor="let item of list " [value]="item.Name">
-                    </datalist>
-                </form>
+            <div class="navbar-nav align-self-center my-0">
+                <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
+                <datalist id="datalistOptions">
+                    <option *ngFor="let item of list " [value]="item.Name">
+                </datalist>
             </div>
             <select class="selectpicker btn btn-warning my-3" data-width="fit">
                 <option>Subject</option>
