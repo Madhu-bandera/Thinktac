@@ -10,7 +10,7 @@ export class HeaderComponent implements OnInit {
 @Input() list:any;
 @Input() newItemEvent = new EventEmitter<any>();
 
-
+searchStr:any;
 
   constructor(private service: ProviderService) { }
 
